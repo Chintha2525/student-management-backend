@@ -1,11 +1,12 @@
 //assign dependencies to variables.
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 const app = express();
-dotenv.config();
+
 
 const PORT = process.env.PORT || 5000;
 
