@@ -14,7 +14,7 @@ app.use(express.json());
 
 
 app.get("/", function (req, res) {
-  res.send("<h1> Pinterest clone project.....</h1>");
+  res.send("<h1> Student management system project.....</h1>");
 });
 
 app.post('/add', async function (req, res) {
